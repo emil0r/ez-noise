@@ -1,11 +1,11 @@
-# ez-simplex
+# ez-noise
 
-A simplex noise implementation for Clojure.
+Noise implementations for Clojure.
 
 ## Usage
 
 ``` clojure
-(require '[ez-simplex.core :refer [simplex noise])
+(require '[ez-noise.simplex :refer [simplex noise])
 
 (let [simplex (simplex 0)]
   (noise simplex 0 0))

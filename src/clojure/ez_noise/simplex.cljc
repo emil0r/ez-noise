@@ -1,4 +1,4 @@
-(ns ez-simplex.core
+(ns ez-noise.simplex
   (:import [EzSimplex OpenSimplexNoise]))
 
 (defn simplex
