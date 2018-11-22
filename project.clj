@@ -7,7 +7,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :source-paths ["src/clojure"]
+  :source-paths ["dev" "src/clojure"]
 
   :java-source-paths ["src/java"]
 
