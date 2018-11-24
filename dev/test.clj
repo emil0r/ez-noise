@@ -1,5 +1,5 @@
 (ns test
-  (:require [ez-simplex.core :refer [simplex noise]]
+  (:require [ez-noise.simplex :refer [simplex noise]]
             [mikera.image.core :as image]
             [mikera.image.colours :as colours]))
 
@@ -22,7 +22,7 @@
                  :amp 1
                  :max-amp 0
                  :frequency scale} (range 1 (inc num-iterations)))
-        n (* 1.14942 (/ n max-amp))]
+        n (/ n max-amp)]
     (+ (* n (/ (- high low) 2))
        (/ (+ high low) 2))))
 
