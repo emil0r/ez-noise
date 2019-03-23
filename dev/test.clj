@@ -48,3 +48,10 @@
 
 (let [simplex (simplex)]
   (map #(noise simplex (* 1 %) 0) (range 10)))
+
+
+(let [simplex (simplex)
+      n 1000000
+      r (map #(noise simplex 0 0 0 %) (range n))]
+  [(apply max r)
+   (apply min r)])

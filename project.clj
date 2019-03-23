@@ -1,4 +1,4 @@
-(defproject ez-noise "0.1.1"
+(defproject ez-noise "0.1.2"
 
   :description "Noise implementations for clojure"
 
